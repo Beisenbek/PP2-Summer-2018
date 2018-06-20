@@ -1,0 +1,5 @@
+c:\Users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Compare\bin\Debug\Compare.exe.config
+c:\Users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Compare\bin\Debug\Compare.exe
+c:\Users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Compare\bin\Debug\Compare.pdb
+c:\Users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Compare\obj\Debug\Compare.exe
+c:\Users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Compare\obj\Debug\Compare.pdb

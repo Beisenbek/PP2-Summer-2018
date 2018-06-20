@@ -1,0 +1,6 @@
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Lec5G2\bin\Debug\Lec5G2.exe.config
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Lec5G2\bin\Debug\Lec5G2.exe
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Lec5G2\bin\Debug\Lec5G2.pdb
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Lec5G2\obj\Debug\Lec5G2.csprojResolveAssemblyReference.cache
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Lec5G2\obj\Debug\Lec5G2.exe
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5G2\Lec5G2\obj\Debug\Lec5G2.pdb

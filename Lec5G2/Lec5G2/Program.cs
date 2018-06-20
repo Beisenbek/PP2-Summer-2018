@@ -1,32 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Lec5
+namespace Lec5G2
 {
     class Program
     {
+
+
         static void Main(string[] args)
         {
+
+
+
+            VisualUtils vutils = new VisualUtils();
+            vutils.VisualMode = VisualMode.List;
+
+
+
             Stack<StackItem2> history = new Stack<StackItem2>();
-            StackItem2 item = new StackItem2 { DirInfo = new DirectoryInfo(@"C:\soft"), Index = 0 };
-            VisualOperations visualOperations = new VisualOperations();
-            visualOperations.VisualMode = VisualMode.DIR;
+            StackItem2 item = new StackItem2 { DirInfo = new DirectoryInfo(@"C:\soft\mingw64tdm\mingw64tdm"), Index = 0 };
+
             history.Push(item);
 
             bool isOK = true;
 
             while (isOK)
             {
-
-                if (visualOperations.VisualMode == VisualMode.DIR)
+                if (vutils.VisualMode ==  VisualMode.List)
                 {
-                    VisualOperations.ShowInnerFileSystemInfo(history.Peek());
+                    VisualUtils.ShowFileSystemInfo(history.Peek());
                 }
-
                 ConsoleKeyInfo pressedButton = Console.ReadKey();
                 switch (pressedButton.Key)
                 {
@@ -37,27 +41,29 @@ namespace Lec5
                         history.Peek().Index = history.Peek().Index + 1;
                         break;
                     case ConsoleKey.Enter:
-
                         StackItem2 item2 = new StackItem2();
                         StackItem2 topItem = history.Peek();
-                        FileSystemInfo[] info = topItem.DirInfo.GetFileSystemInfos();
-                        FileSystemInfo fsObject = info[topItem.Index];
-                        string path = fsObject.FullName;
+                        int index = topItem.Index;
+                        FileSystemInfo[] objs = topItem.DirInfo.GetFileSystemInfos();
+                        string path = objs[index].FullName;
 
-                        if (fsObject is DirectoryInfo){
+                        if (objs[index] is DirectoryInfo)
+                        {
                             item2.DirInfo = new DirectoryInfo(path);
                             item2.Index = 0;
-                            history.Push(item2);d
-                        }else if (fsObject is FileInfo)
+                            history.Push(item2);
+                        }else if(objs[index]  is FileInfo)
                         {
-                            visualOperations.VisualMode = VisualMode.FILE_CONTENT;
-                            VisualOperations.ShowFileContent(path);
+                            vutils.VisualMode = VisualMode.Content;
+                            VisualUtils.ShowFileContent(path);
                         }
+
                         break;
                     case ConsoleKey.Backspace:
-                        if (visualOperations.VisualMode == VisualMode.FILE_CONTENT)
+
+                        if (vutils.VisualMode == VisualMode.Content)
                         {
-                            visualOperations.VisualMode = VisualMode.DIR;
+                            vutils.VisualMode = VisualMode.List;
                         }
                         else
                         {
