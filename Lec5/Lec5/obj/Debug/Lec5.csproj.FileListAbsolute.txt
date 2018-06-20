@@ -1,0 +1,6 @@
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5\Lec5\bin\Debug\Lec5.exe.config
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5\Lec5\bin\Debug\Lec5.exe
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5\Lec5\bin\Debug\Lec5.pdb
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5\Lec5\obj\Debug\Lec5.csprojResolveAssemblyReference.cache
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5\Lec5\obj\Debug\Lec5.exe
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec5\Lec5\obj\Debug\Lec5.pdb
