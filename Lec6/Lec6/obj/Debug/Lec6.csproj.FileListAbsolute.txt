@@ -1,0 +1,7 @@
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec6\Lec6\bin\Debug\Lec6.exe.config
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec6\Lec6\bin\Debug\Lec6.exe
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec6\Lec6\bin\Debug\Lec6.pdb
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec6\Lec6\obj\Debug\Lec6.csprojResolveAssemblyReference.cache
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec6\Lec6\obj\Debug\Lec6.exe
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec6\Lec6\obj\Debug\Lec6.pdb
+c:\users\b.baisakov\documents\visual studio 2015\Projects\Lec6\Lec6\bin\Debug\Level1.txt
