@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Xml.Serialization;
 
 namespace Lec6G2
@@ -36,30 +37,26 @@ namespace Lec6G2
             sign = 'o';
         }
 
-        public void Move()
+        public void Move(object sender, ElapsedEventArgs e)
         {
-            while (true)
+            Clear();
+
+            for (int i = body.Count - 1; i > 0; --i)
             {
-                Clear();
-
-                for(int i = body.Count - 1; i > 0; --i)
-                {
-                    body[i] = new Point { X = body[i - 1].X, Y = body[i - 1].Y };
-                }
-
-                body[0].X += Dx;
-                body[0].Y += Dy;
-
-                if (food.body[0].Equals(body[0]))
-                {
-                    body.Add(new Point { X = food.body[0].X, Y = food.body[0].Y });
-                    food = new Food();
-                    food.Draw();
-                }
-
-                Draw();
-                Thread.Sleep(100);
+                body[i] = new Point { X = body[i - 1].X, Y = body[i - 1].Y };
             }
+
+            body[0].X += Dx;
+            body[0].Y += Dy;
+
+            if (food.body[0].Equals(body[0]))
+            {
+                body.Add(new Point { X = food.body[0].X, Y = food.body[0].Y });
+                food = new Food();
+                food.Draw();
+            }
+
+            Draw();
         }
 
         public void Save()

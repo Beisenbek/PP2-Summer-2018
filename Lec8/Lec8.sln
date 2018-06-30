@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lec8", "Lec8\Lec8.csproj", "{F884891D-10A1-40D6-A35B-F1EE4280403F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snake1", "snake\snake1.csproj", "{AF01A505-87CE-4ABD-920D-643C66D44C68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snake2", "snake2\snake2.csproj", "{FA095DBF-23C0-4EDD-90BD-7A4FAB74B80E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F884891D-10A1-40D6-A35B-F1EE4280403F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F884891D-10A1-40D6-A35B-F1EE4280403F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F884891D-10A1-40D6-A35B-F1EE4280403F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F884891D-10A1-40D6-A35B-F1EE4280403F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF01A505-87CE-4ABD-920D-643C66D44C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF01A505-87CE-4ABD-920D-643C66D44C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF01A505-87CE-4ABD-920D-643C66D44C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF01A505-87CE-4ABD-920D-643C66D44C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA095DBF-23C0-4EDD-90BD-7A4FAB74B80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA095DBF-23C0-4EDD-90BD-7A4FAB74B80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA095DBF-23C0-4EDD-90BD-7A4FAB74B80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA095DBF-23C0-4EDD-90BD-7A4FAB74B80E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
