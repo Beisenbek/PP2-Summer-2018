@@ -54,7 +54,7 @@
                     AccumulateDigits(true, command);
                 }else
                 {
-                    Zero(true, command);
+                            (true, command);
                 }
             }
         }
